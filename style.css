@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+  height: 200px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
+  .bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(
+      var(--bs-success-rgb),
+      var(--bs-bg-opacity)
+    ) !important;
+  }
